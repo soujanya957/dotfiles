@@ -1,0 +1,27 @@
+require("soujanya.plugins-setup")
+require("soujanya.core.options")
+require("soujanya.core.keymaps")
+-- require("soujanya.core.colorscheme")
+require("soujanya.lazy")
+require("soujanya.plugins.comment")
+require("soujanya.plugins.nvim-tree")
+require("soujanya.plugins.lualine")
+require("soujanya.plugins.telescope")
+require("soujanya.plugins.nvim-cmp")
+require("soujanya.plugins.lsp.mason")
+require("soujanya.plugins.lsp.lspsaga")
+require("soujanya.plugins.lsp.lspconfig")
+require("soujanya.plugins.lsp.null-ls")
+require("soujanya.plugins.autopairs")
+require("soujanya.plugins.treesitter")
+require("soujanya.plugins.gitsigns")
+require("soujanya.plugins.indent")
+require("soujanya.plugins.cmd")
+require("soujanya.plugins.snake")
+require("soujanya.plugins.obsidian")
+require("soujanya.plugins.toggleterm")
+
+-- require('soujanya.plugins.mini')
+vim.cmd [[colorscheme tokyonight]]
+
+
