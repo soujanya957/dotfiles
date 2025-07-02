@@ -1,0 +1,12 @@
+theme = Argonaut
+font-size = 18
+background-blur-radius = 20
+mouse-hide-while-typing = true
+window-decoration = true
+# keybind = global:cmd+/=toggle_quick_terminal
+macos-option-as-alt = true
+confirm-close-surface = false
+
+
+background-opacity = 0.8
+# background-blur-radius = 20 
