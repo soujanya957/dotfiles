@@ -1,0 +1,37 @@
+{
+    "description": "Use S + D for Option + Command + Left Arrow, K + L for Option + Command + Right Arrow",
+    "manipulators": [
+        {
+            "from": {
+                "modifiers": { "optional": ["any"] },
+                "simultaneous": [
+                    { "key_code": "s" },
+                    { "key_code": "d" }
+                ]
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_option", "left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "modifiers": { "optional": ["any"] },
+                "simultaneous": [
+                    { "key_code": "k" },
+                    { "key_code": "l" }
+                ]
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_option", "left_command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

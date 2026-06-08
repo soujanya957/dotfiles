@@ -1,0 +1,21 @@
+{
+    "description": "Use J + L for Ctrl + A",
+    "manipulators": [
+        {
+            "from": {
+                "modifiers": { "optional": ["any"] },
+                "simultaneous": [
+                    { "key_code": "j" },
+                    { "key_code": "l" }
+                ]
+            },
+            "to": [
+                {
+                    "key_code": "a",
+                    "modifiers": ["left_control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "description": "Press w+e together to send ctrl+c",
+    "manipulators": [
+        {
+            "from": {
+                "modifiers": { "optional": ["any"] },
+                "simultaneous": [
+                    { "key_code": "w" },
+                    { "key_code": "e" }
+                ]
+            },
+            "to": [
+                {
+                    "key_code": "c",
+                    "modifiers": ["left_control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
