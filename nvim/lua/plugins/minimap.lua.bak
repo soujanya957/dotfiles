@@ -1,0 +1,7 @@
+return {
+
+  "nvim-mini/mini.indentscope",
+  config = function()
+    require("mini.map").setup()
+  end,
+}
